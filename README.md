@@ -16,6 +16,6 @@ durante a semana dos dias 22 a 26 de Fevereiro </span>
 <span> O layout da aplicação foi desenvolvida pelo <strong>Tiago Luchtenberg</strong> da Rocketseat</span>
 
 <span>Link:</span>
-<a href="https://www.figma.com/file/bzhGEsKA2QJKiMuVZBt7K8/Move.it-1.0-(Copy)?node-id=160%3A2761" target="_blank">
+<a href="https://www.figma.com/file/bzhGEsKA2QJKiMuVZBt7K8/Move.it-1.0-(Copy)?node-id=160%3A2761">
 Layout via Figma
 </a>
