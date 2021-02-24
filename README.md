@@ -19,3 +19,9 @@ durante a semana dos dias 22 a 26 de Fevereiro </span>
 <a href="https://www.figma.com/file/bzhGEsKA2QJKiMuVZBt7K8/Move.it-1.0-(Copy)?node-id=160%3A2761">
 Layout via Figma
 </a>
+
+
+codes:
+
+rumoaoproximonivel
+jornadainfinita
