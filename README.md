@@ -2,7 +2,7 @@
 
 <h1> MoveIt </h1>
 
-<span>Aplicação em desenvolvimento na NLW-4 da rocketseat
+<span>Aplicação em desenvolvimento durante a NLW-4 da rocketseat
 durante a semana dos dias 22 a 26 de Fevereiro </span>
 
 <h2> Tecnologias utilizadas ao longo da semana </h2>
@@ -25,3 +25,4 @@ codes:
 
 rumoaoproximonivel
 jornadainfinita
+focopraticaegrupo
