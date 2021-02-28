@@ -79,7 +79,7 @@ Layout via Figma
 
 
 
-#Exemplo da Aplicação funcionando#
+### Exemplo da Aplicação funcionando
 
 ![funcionando](https://github.com/Orifiel/moveit-next/blob/main/public/readme_images/app.gif)
 
