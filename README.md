@@ -1,4 +1,4 @@
-![logo](moveit-next/public/favicon.png)
+![logo](https://github.com/Orifiel/moveit-next/blob/main/public/favicon.png)
 
 <h1> MoveIt </h1>
 
@@ -78,8 +78,8 @@ Layout via Figma
 
 codes:
 
-rumoaoproximonivel
-jornadainfinita
-focopraticaegrupo
-neverstoplearning
-missioncomplete
+rumoaoproximonivel;
+jornadainfinita;
+focopraticaegrupo;
+neverstoplearning;
+missioncomplete;
