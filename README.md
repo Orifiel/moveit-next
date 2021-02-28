@@ -33,7 +33,7 @@ Layout via Figma
 
 <h2>Executando o projeto</h2>
 
-<p>Você pode acessar o projeto pelo link da <a href="https://moveit-next-snowy-zeta.vercel.app/">Vercel</p>
+<p>Você pode acessar o projeto pelo link da <a href="https://moveit-next-snowy-zeta.vercel.app/">Vercel</a></p>
 <p>Caso prefira, você pode executar ele localmente:</p>
 
 1. Faça o download do repositorio aqui do github;
