@@ -37,17 +37,38 @@ Layout via Figma
 <p>Caso prefira, você pode executar ele localmente:</p>
 
 1. Faça o download do repositorio aqui do github;
+
+
 ![download](https://github.com/Orifiel/moveit-next/blob/main/public/readme_images/download_repo.png)
+
+
 ![salvando projeto](https://github.com/Orifiel/moveit-next/blob/main/public/readme_images/download_repo2.png)
+
+
 2. Descompacte o arquivo .zip baixado
+
+
 ![descompactar](https://github.com/Orifiel/moveit-next/blob/main/public/readme_images/download_repo3.png)
+
+
 ![descompactado](https://github.com/Orifiel/moveit-next/blob/main/public/readme_images/download_repo4.png)
+
+
 3. Abra um terminal e acesse o diretorio do projeto.
+
+
 ![repositorio](https://github.com/Orifiel/moveit-next/blob/main/public/readme_images/view_repo.png)
+
+
 4. Execute o comando yarn
 5. Execute o comando yarn dev
+
+
 ![comandos](https://github.com/Orifiel/moveit-next/blob/main/public/readme_images/comando%20yarn.png)
+
 6. Acesse o endereço localhost:3000
+
+
 ![acessando](https://github.com/Orifiel/moveit-next/blob/main/public/readme_images/ss1.png)
 
 
