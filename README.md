@@ -5,11 +5,15 @@
 <span>Aplicação em desenvolvimento durante a NLW-4 da rocketseat
 durante a semana dos dias 22 a 26 de Fevereiro </span>
 
+
+
 <p>O MoveIt se basea na técnica para estudo chamada <a href="https://pt.wikipedia.org/wiki/T%C3%A9cnica_pomodoro">pomodoro</a>. A proposta aqui é termos ciclos de 25min e ao final de cada ciclo
 desafios com exercícios laborais</p>
 
-<h2> Tecnologias utilizadas ao longo da semana </h2>
 
+
+
+<h2> Tecnologias utilizadas ao longo da semana </h2>
 
 1. React 
 2. Typescript 
@@ -26,9 +30,11 @@ desafios com exercícios laborais</p>
 <span> O layout da aplicação foi desenvolvida pelo <strong>Tiago Luchtenberg</strong> da Rocketseat</span>
 
 <span>Link:</span>
+
 <a href="https://www.figma.com/file/bzhGEsKA2QJKiMuVZBt7K8/Move.it-1.0-(Copy)?node-id=160%3A2761">
 Layout via Figma
 </a>
+
 
 
 <h2>Executando o projeto</h2>
@@ -73,13 +79,8 @@ Layout via Figma
 
 
 
+#Exemplo da Aplicação funcionando#
+
+![funcionando](https://github.com/Orifiel/moveit-next/blob/main/public/readme_images/app.gif)
 
 
-
-codes:
-
-rumoaoproximonivel;
-jornadainfinita;
-focopraticaegrupo;
-neverstoplearning;
-missioncomplete;
