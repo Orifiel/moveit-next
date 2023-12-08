@@ -9,7 +9,7 @@ export function Profile() {
 
     return (
         <div className={styles.profileContainer}>
-            <img src="Orifiel/moveit-next/public/readme_images/Linus Torvalds.png" alt=""/>
+            <img src="/public/readme_images/Linus Torvalds.png" alt=""/>
             <div>
                 <strong>Linus Torvalds</strong>
                 <p>
