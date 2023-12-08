@@ -9,7 +9,7 @@ export function Profile() {
 
     return (
         <div className={styles.profileContainer}>
-            <img src="/public/readme_images/Linus Torvalds.png" alt=""/>
+            <img src="https://livecoins.com.br/wp-content/uploads/2022/01/Linus-Torvalds.jpg" alt=""/>
             <div>
                 <strong>Linus Torvalds</strong>
                 <p>
