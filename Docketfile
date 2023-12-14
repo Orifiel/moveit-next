@@ -1,10 +1,14 @@
-FROM node:14.21.3-alpine
+FROM node:16
 
 WORKDIR /app
 
 COPY package.json yarn.lock ./
 
+RUN yarn
+
 RUN yarn install
+
+EXPOSE 3000
 
 COPY . .
 

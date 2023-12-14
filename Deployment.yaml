@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: moveit-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: moveit-app-k8s
+  template:
+    metadata:
+      labels:
+        app: moveit-app-k8s
+    spec:
+      containers:
+        - name: moveit
+          image: cleitonm/moveit:latest
+          ports:
+            - containerPort: 3000
