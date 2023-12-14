@@ -1,4 +1,4 @@
-FROM node:14.21.3-alpine
+FROM node:14.21.3-alpine 
 
 WORKDIR /app
 
@@ -8,4 +8,7 @@ RUN npm install
 
 COPY . .
 
-CMD ["yarn", "dev"]
+RUN npm run build
+
+CMD [ "npm", "start" ] 
+

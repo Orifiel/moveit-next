@@ -1,0 +1,9 @@
+resources:
+  - deployment.yaml
+  - service.yaml
+  - route.yaml
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+images:
+  - digest: sha256:710ebd0a957177ed3ba5c39fe3098d695802f05cfb58d2c131dcb24321dcd3be
+    name: quay.io/cleitonm/moveit-next
