@@ -42,6 +42,10 @@ Layout via Figma
 <p>Você pode acessar o projeto pelo link da <a href="https://moveit-next-snowy-zeta.vercel.app/">Vercel</a></p>
 <p>Caso prefira, você pode executar ele localmente:</p>
 
+Pre requisitos:
+- nodejs v14.21.3
+- yarn 1.22.10
+
 1. Faça o download do repositorio aqui do github;
 
 
