@@ -1,24 +1,17 @@
-apiVersion: route.openshift.io/v1
 kind: Route
+apiVersion: route.openshift.io/v1
 metadata:
-  annotations:
-    openshift.io/host.generated: "true"
+  name: moveit-next-k8s
   labels:
     app: moveit-next-k8s
-    app.kubernetes.io/component: moveit-next-k8s
-    app.kubernetes.io/instance: moveit-next-k8s
-    app.kubernetes.io/name: moveit-next-k8s
-    app.kubernetes.io/part-of: moveit-next-app
-    app.openshift.io/runtime-version: latest
-  name: moveit-next-k8s
 spec:
-  port:
-    targetPort: 3000-tcp
-  tls:
-    insecureEdgeTerminationPolicy: Redirect
-    termination: edge
   to:
     kind: Service
-    name: moveit-next-k8s
+    name: random-meme
     weight: 100
+  port:
+    targetPort: 3000
+  tls:
+    termination: edge
+    insecureEdgeTerminationPolicy: Redirect
   wildcardPolicy: None
