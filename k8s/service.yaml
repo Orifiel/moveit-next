@@ -10,4 +10,4 @@ spec:
       port: 3000
       targetPort: 3000
   selector:
-    app: rmoveit-next-k8s
+    app: moveit-next-k8s
