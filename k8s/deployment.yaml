@@ -4,6 +4,10 @@ metadata:
   name: moveit-next-k8s
   labels:
     app: moveit-next-k8s
+    app.kubernetes.io/component: moveit-next-k8s
+    app.kubernetes.io/instance: moveit-next-k8s
+    app.kubernetes.io/name: moveit-next-k8s
+    app.kubernetes.io/part-of: moveit-next-app-k8s
     app.openshift.io/runtime: nodejs
 spec:
   replicas: 1
