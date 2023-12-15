@@ -15,10 +15,6 @@ spec:
       labels:
         app: moveit-next-k8s
     spec:
-      volumes:
-          - name: challenges-volume
-            configMap:
-              name: challenges-json
       containers:
       - name: moveit-next-k8s
         livenessProbe:
@@ -34,12 +30,6 @@ spec:
           periodSeconds: 2
           initialDelaySeconds: 2
         image: quay.io/cleitonm/moveit-next:latest
-        volumeMounts:
-          - name: challenges-volume
-            mountPath: /
-        env:
-          - name: CHALLENGES_JSON_FILEPATH
-            value: /challenges.json
         resources:
           requests:
             cpu: 100m
