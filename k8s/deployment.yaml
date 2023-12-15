@@ -6,7 +6,7 @@ metadata:
     app: moveit-next-k8s
     app.openshift.io/runtime: nodejs
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       app: moveit-next-k8s
