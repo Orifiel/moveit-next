@@ -1,4 +1,4 @@
-FROM  quay.io/cleitonm/node14.latest
+FROM  node:14.21.3-alpine
 
 WORKDIR /app
 
