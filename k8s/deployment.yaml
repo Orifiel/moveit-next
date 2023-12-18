@@ -33,7 +33,7 @@ spec:
             port: 3000
           periodSeconds: 2
           initialDelaySeconds: 2
-        image: quay.io/cleitonm/moveit-next:latest
+        image: docker.io/library/node:14.21.3-alpine
         resources:
           requests:
             cpu: 100m
