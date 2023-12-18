@@ -33,7 +33,7 @@ spec:
             port: 3000
           periodSeconds: 2
           initialDelaySeconds: 2
-        image: quay.io/cleitonm/node14:latest
+        image: quay.io/cleitonm/moveit-next:latest
         resources:
           requests:
             cpu: 100m
