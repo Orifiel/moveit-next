@@ -1,0 +1,50 @@
+kind: PersistentVolume
+apiVersion: v1
+metadata:
+  name: mypvc
+  uid: c90dae8f-6f55-4164-b778-217eb8ab47ab
+  resourceVersion: '781735'
+  creationTimestamp: '2023-12-26T22:46:11Z'
+  finalizers:
+    - kubernetes.io/pv-protection
+  managedFields:
+    - manager: Mozilla
+      operation: Update
+      apiVersion: v1
+      time: '2023-12-26T22:46:11Z'
+      fieldsType: FieldsV1
+      fieldsV1:
+        'f:spec':
+          'f:accessModes': {}
+          'f:capacity':
+            .: {}
+            'f:storage': {}
+          'f:nfs':
+            .: {}
+            'f:path': {}
+            'f:server': {}
+          'f:persistentVolumeReclaimPolicy': {}
+          'f:storageClassName': {}
+          'f:volumeMode': {}
+    - manager: kube-controller-manager
+      operation: Update
+      apiVersion: v1
+      time: '2023-12-26T22:46:11Z'
+      fieldsType: FieldsV1
+      fieldsV1:
+        'f:status':
+          'f:phase': {}
+      subresource: status
+spec:
+  capacity:
+    storage: 1Gi
+  nfs:
+    server: 172.17.0.2
+    path: /app
+  accessModes:
+    - ReadWriteOnce
+  persistentVolumeReclaimPolicy: Retain
+  storageClassName: slow
+  volumeMode: Filesystem
+status:
+  phase: Available
