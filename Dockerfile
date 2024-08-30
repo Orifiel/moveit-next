@@ -11,7 +11,8 @@
 #RUN npm run build
 
 #CMD [ "npm", "start" ] 
-FROM  node:14.21.3-alpine
+FROM  quay.io/cleitonm/node14:latest
+#node:14.21.3-alpine
 
 WORKDIR /app
 
